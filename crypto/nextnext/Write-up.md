@@ -102,7 +102,7 @@ print(flag)
 第四题
 
 原理如下图
-![t4](./image/t4.jpg)
+![t4](./image/t4.png)
 代码如下
 import binascii
 import gmpy2
