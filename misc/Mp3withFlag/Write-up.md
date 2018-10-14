@@ -14,10 +14,10 @@
 	3.把所需的MP3文件也拖到该文件夹
 	4.输入 decode -X -P JNCTF JNCTF.mp3 （解密过程：decode -X -P （密码） （要解密的文件））
 	  此处的密码就是MP3的文件名JNCTF
-![1](.\image\1.png)
+![1](./image/1.png)
 ​	5.在文件夹中生成了JNCTF.mp3.txt，打开即可得到Flag:didi-shuaigeka
-![2](.\image\2.png)
-![3](.\image\3.png)
+![2](./image/2.png)
+![3](./image/3.png)
 
 ## **【总结】**
 	只需认识MP3STEGO即可
