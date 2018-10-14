@@ -1,0 +1,7 @@
+services:
+  easy_canary:
+    build: .
+    image: 172.18.146.50:5000/easy_canary
+    ports: ['9999']
+    restart: unless-stopped
+version: '3'

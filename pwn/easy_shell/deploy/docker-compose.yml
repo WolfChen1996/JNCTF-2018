@@ -1,0 +1,7 @@
+services:
+  easy_shell:
+    build: .
+    image: 172.18.146.50:5000/easy_shell
+    ports: ['9999']
+    restart: unless-stopped
+version: '3'

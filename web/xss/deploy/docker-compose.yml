@@ -1,0 +1,7 @@
+services:
+  xss:
+    build: .
+    image: 172.18.146.50:5000/xss
+    ports: ['80']
+    tty: true
+version: '3'

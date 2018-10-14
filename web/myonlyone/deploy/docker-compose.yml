@@ -1,0 +1,7 @@
+services:
+  myonlyone:
+    build: .
+    image: 172.18.146.50:5000/myonlyone
+    ports: ['80']
+    tty: true
+version: '3'

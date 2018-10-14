@@ -1,0 +1,7 @@
+services:
+  easy_rop:
+    build: .
+    image: 172.18.146.50:5000/easy_rop
+    ports: ['9999']
+    restart: unless-stopped
+version: '3'
